@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "todo_app",
+    'name': "To-Do Application",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Manage your personal Tasks with this module
+        """,
 
     'description': """
-        Long description of module's purpose
+        Manage your personal Tasks with this module
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Israel Santana",
+    'website': "https://github.com/kamaxeon/test-odoo",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/master/openerp/addons/base/module/module_data.xml
@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['mail'],
 
     # always loaded
     'data': [
@@ -29,7 +29,7 @@
         'views/templates.xml',
     ],
     # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+    # 'demo': [
+    #     'demo/demo.xml',
+    # ],
 }
